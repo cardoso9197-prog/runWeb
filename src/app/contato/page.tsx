@@ -72,13 +72,13 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6 text-primary-500" />
               </div>
-              <h3 className="text-lg font-bold text-white mb-2">Telefone</h3>
+              <h3 className="text-lg font-bold text-white mb-2">Contato 24/7</h3>
               <p className="text-gray-400 mb-3">Ligue para nossa central de atendimento</p>
-              <a href="tel:+245955971275" className="text-primary-400 hover:text-primary-300 font-medium block">
-                +245 955 971 275
+              <a href="tel:+24595xxxxxxxxx" className="text-primary-400 hover:text-primary-300 font-medium block">
+                +245 95xxxxxxxxx
               </a>
-              <a href="tel:+245955981398" className="text-primary-400 hover:text-primary-300 font-medium block mt-1">
-                +245 955 981 398
+              <a href="tel:+24596xxxxxxxxx" className="text-primary-400 hover:text-primary-300 font-medium block mt-1">
+                +245 96xxxxxxxxx
               </a>
             </div>
 
@@ -88,8 +88,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Email</h3>
               <p className="text-gray-400 mb-3">Envie-nos um email a qualquer hora</p>
-              <a href="mailto:admin@runrungb.com" className="text-green-400 hover:text-green-300 font-medium">
-                admin@runrungb.com
+              <a href="mailto:suporte@runrungb.com" className="text-green-400 hover:text-green-300 font-medium">
+                suporte@runrungb.com
               </a>
             </div>
 
@@ -100,8 +100,7 @@ export default function ContactPage() {
               <h3 className="text-lg font-bold text-white mb-2">Localização</h3>
               <p className="text-gray-400 mb-3">Visite nosso escritório</p>
               <p className="text-blue-400 font-medium">
-                Bissau, Guiné-Bissau<br />
-                Bairro de Bandim
+                Bissau, Guiné-Bissau
               </p>
             </div>
 

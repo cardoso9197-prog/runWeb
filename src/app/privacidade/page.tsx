@@ -131,8 +131,8 @@ export default function PrivacyPage() {
               </ul>
               <p className="mt-4">
                 Para exercer esses direitos, entre em contato conosco através do email: 
-                <a href="mailto:admin@runrungb.com" className="text-primary-400 hover:text-primary-300 ml-1">
-                  admin@runrungb.com
+                <a href="mailto:suporte@runrungb.com" className="text-primary-400 hover:text-primary-300 ml-1">
+                  suporte@runrungb.com
                 </a>
               </p>
             </div>
@@ -157,8 +157,8 @@ export default function PrivacyPage() {
               </p>
               <div className="mt-4 p-4 bg-gray-900 rounded-xl">
                 <p><strong className="text-white">Run Run</strong></p>
-                <p>Email: <a href="mailto:admin@runrungb.com" className="text-primary-400">admin@runrungb.com</a></p>
-                <p>Telefone: +245 955 971 275 / +245 955 981 398</p>
+                <p>Email: <a href="mailto:suporte@runrungb.com" className="text-primary-400">suporte@runrungb.com</a></p>
+                <p>Telefone: +245 95xxxxxxxxx / +245 96xxxxxxxxx</p>
                 <p>Endereço: Bissau, Guiné-Bissau</p>
               </div>
             </div>

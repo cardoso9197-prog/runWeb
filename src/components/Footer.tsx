@@ -114,21 +114,21 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Contato 24/7</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+245955971275" className="flex items-center text-gray-400 hover:text-white transition">
+                <a href="tel:+24595xxxxxxxxx" className="flex items-center text-gray-400 hover:text-white transition">
                   <Phone className="w-5 h-5 mr-3 text-primary-500" />
-                  +245 955 971 275
+                  +245 95xxxxxxxxx
                 </a>
               </li>
               <li>
-                <a href="tel:+245955981398" className="flex items-center text-gray-400 hover:text-white transition">
+                <a href="tel:+24596xxxxxxxxx" className="flex items-center text-gray-400 hover:text-white transition">
                   <Phone className="w-5 h-5 mr-3 text-primary-500" />
-                  +245 955 981 398
+                  +245 96xxxxxxxxx
                 </a>
               </li>
               <li>
-                <a href="mailto:admin@runrungb.com" className="flex items-center text-gray-400 hover:text-white transition">
+                <a href="mailto:suporte@runrungb.com" className="flex items-center text-gray-400 hover:text-white transition">
                   <Mail className="w-5 h-5 mr-3 text-primary-500" />
-                  admin@runrungb.com
+                  suporte@runrungb.com
                 </a>
               </li>
               <li>

@@ -206,8 +206,8 @@ export default function TermsPage() {
               </p>
               <div className="mt-4 p-4 bg-gray-900 rounded-xl">
                 <p><strong className="text-white">Run Run</strong></p>
-                <p>Email: <a href="mailto:admin@runrungb.com" className="text-primary-400">admin@runrungb.com</a></p>
-                <p>Telefone: +245 955 971 275 / +245 955 981 398</p>
+                <p>Email: <a href="mailto:suporte@runrungb.com" className="text-primary-400">suporte@runrungb.com</a></p>
+                <p>Telefone: +245 95xxxxxxxxx / +245 96xxxxxxxxx</p>
                 <p>Endereço: Bissau, Guiné-Bissau</p>
               </div>
             </div>
