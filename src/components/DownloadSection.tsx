@@ -5,15 +5,15 @@ import Image from 'next/image'
 import { QRCodeSVG } from 'qrcode.react'
 import { Smartphone, Download, Apple, Play } from 'lucide-react'
 
-// App download URLs - Update these with your actual URLs
+// App download URLs - Updated January 8, 2026
 const APP_URLS = {
   passenger: {
-    android: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/4de08069-0894-4138-bbe6-70185ea5990e',
-    ios: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/bf9980c8-0f0a-4681-a16b-52f3cfcd50b6',
+    android: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/d24cca98-0f02-457b-89fd-ebde617703b3',
+    ios: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/2405c3ff-a283-43af-87b2-76bd6ff2aa4a',
   },
   driver: {
-    android: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/3f675f08-d6a5-4ae3-87ee-42110ddd1e56',
-    ios: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/e4bfa392-85c4-400a-91aa-39e05dbc44c2',
+    android: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/e49942d9-3b74-4298-be86-8b8b0c95d5a6',
+    ios: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/1faeb22a-583a-412d-a9a9-a047e6c2a668',
   },
 }
 
