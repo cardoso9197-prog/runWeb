@@ -5,15 +5,15 @@ import Image from 'next/image'
 import { QRCodeSVG } from 'qrcode.react'
 import { Smartphone, Download, Apple, Play } from 'lucide-react'
 
-// App download URLs - Updated January 8, 2026
+// App download URLs - Updated January 9, 2026 with authentication fixes
 const APP_URLS = {
   passenger: {
-    android: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/d24cca98-0f02-457b-89fd-ebde617703b3',
-    ios: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/2405c3ff-a283-43af-87b2-76bd6ff2aa4a',
+    android: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/832240a1-38e4-423b-a7d9-21c14040b79f',
+    ios: 'https://expo.dev/accounts/edipro/projects/runrun-passenger/builds/2a9b4c70-88d2-4eb6-9afe-907c825f684f',
   },
   driver: {
-    android: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/e49942d9-3b74-4298-be86-8b8b0c95d5a6',
-    ios: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/1faeb22a-583a-412d-a9a9-a047e6c2a668',
+    android: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/d1fcaf68-a08b-4baf-bac8-7235e5b5ab40',
+    ios: 'https://expo.dev/accounts/edipro/projects/runrun-driver/builds/5484669a-8d5f-4406-92b1-e4a7c28be80b',
   },
 }
 
@@ -31,7 +31,7 @@ export default function DownloadSection() {
             Baixe o <span className="text-primary-500">App</span> Agora
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Disponível para Android e iOS. Escaneie o QR Code ou clique no botão para baixar.
+            Versões mais recentes com correções de autenticação. Disponível para Android e iOS. Escaneie o QR Code ou clique no botão para baixar.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function DownloadSection() {
                   <h3 className="text-2xl font-bold">
                     Run Run <span className="text-primary-500">{selectedApp === 'passenger' ? 'Passageiro' : 'Motorista'}</span>
                   </h3>
-                  <p className="text-gray-400">Versão 1.0.0</p>
+                  <p className="text-gray-400">Versão 1.0.1 (Corrigida)</p>
                 </div>
               </div>
 
@@ -85,6 +85,9 @@ export default function DownloadSection() {
               </p>
 
               <div className="flex flex-wrap gap-3">
+                <span className="bg-green-500/20 border border-green-500/30 px-3 py-1 rounded-full text-sm text-green-400">
+                  ✓ Autenticação Corrigida
+                </span>
                 <span className="bg-primary-500/20 border border-primary-500/30 px-3 py-1 rounded-full text-sm text-primary-400">
                   ✓ GPS em Tempo Real
                 </span>
