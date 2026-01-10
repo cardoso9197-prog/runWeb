@@ -3,7 +3,7 @@
  * Connects to Railway deployed backend
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://zippy-healing-production-24e4.up.railway.app'
 
 export interface ApiResponse<T = any> {
   success: boolean
