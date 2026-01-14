@@ -48,13 +48,13 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex flex-col">
-              <a href="tel:+245955971275" className="flex items-center text-gray-300 hover:text-primary-500">
+              <a href="tel:+245966084539" className="flex items-center text-gray-300 hover:text-primary-500">
                 <Phone className="w-4 h-4 mr-2" />
-                <span className="text-sm">+245 955 971 275</span>
+                <span className="text-sm">+245 966 084 539</span>
               </a>
-              <a href="tel:+245955981398" className="flex items-center text-gray-300 hover:text-primary-500 mt-1">
+              <a href="tel:+245957338295" className="flex items-center text-gray-300 hover:text-primary-500 mt-1">
                 <Phone className="w-4 h-4 mr-2" />
-                <span className="text-sm">+245 955 981 398</span>
+                <span className="text-sm">+245 957 338 295</span>
               </a>
             </div>
             <Link

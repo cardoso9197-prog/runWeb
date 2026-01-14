@@ -74,11 +74,11 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Contato 24/7</h3>
               <p className="text-gray-400 mb-3">Ligue para nossa central de atendimento</p>
-              <a href="tel:+245955971275" className="text-primary-400 hover:text-primary-300 font-medium block">
-                +245 955 971 275
+              <a href="tel:+245966084539" className="text-primary-400 hover:text-primary-300 font-medium block">
+                +245 966 084 539
               </a>
-              <a href="tel:+245955981398" className="text-primary-400 hover:text-primary-300 font-medium block mt-2">
-                +245 955 981 398
+              <a href="tel:+245957338295" className="text-primary-400 hover:text-primary-300 font-medium block mt-2">
+                +245 957 338 295
               </a>
             </div>
 
